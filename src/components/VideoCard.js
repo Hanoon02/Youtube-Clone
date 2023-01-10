@@ -3,17 +3,17 @@ import React from 'react'
 function VideoCard(props) {
     return(
         <>
-        <div class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
-            <a href="#" class="w-full block h-full">
-                <img alt="blog photo" src="/images/blog/1.jpg" class="max-h-40 w-full object-cover"/>
-                <div class="bg-white dark:bg-gray-800 w-full p-4">
-                    <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
-                       {props.imageTitle}
-                    </p>
-                    <div class="flex items-center mt-4">
-                        <a href="#" class="block relative">
-                            <img alt="profil" src={require(`/images/${props.imageLoc}`)} class="mx-auto object-cover rounded-full h-10 w-10 "/>
-                        </a>
+        <div class="overflow-hidden shadow-lg rounded-lg h-90 cursor-pointer m-auto text-white">
+            <div href="#" class="w-full block h-full p-1">
+                <img alt="Thumbnail" src={props.thumbnail} class="max-h-40 w-full object-cover rounded-lg"/>
+                <div class="w-full p-2">
+                    <div className={'flex'}>
+                        <img alt="profile" src={props.profile} className="mx-auto object-cover rounded-full h-10 w-10 "/>
+                        <p class="text-lg font-medium mb-2">
+                           {props.imageTitle}
+                        </p>
+                    </div>
+                    <div class="flex items-center mt-2">
                         <div class="flex flex-col justify-between ml-4 text-sm">
                             <p class="text-gray-800 dark:text-white">
                                 {props.creator}
@@ -24,7 +24,7 @@ function VideoCard(props) {
                         </div>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
         </>
     )
