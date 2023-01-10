@@ -10,7 +10,7 @@ function Watch(){
                     <img src="https://i.ytimg.com/vi/0e3GPea1Tyg/maxresdefault.jpg" alt="Pic"/>
                     <p className={'text-2xl py-2'}>Mr Beast Monkey Video</p>
                     <div className={'flex py-2'}>
-                        <div className={'flex flex-col'}><p className={'text-lg'}>Mr Beast</p><p className={'font-thin'}>100 Million subscribers</p></div>
+                        <div className={'flex flex-col'}><Link to={'/profile'}><p className={'text-lg'}>Mr Beast</p></Link><p className={'font-thin'}>100 Million subscribers</p></div>
                         <div className={'bg-white rounded-full text-black px-2 py-4 mx-4'}><button>Subscribe</button></div>
                     </div>
                     <div className={'bg-stone-700 rounded-md'}>
