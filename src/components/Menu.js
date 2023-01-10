@@ -1,12 +1,13 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Menu(){
     return(
         <>
             <div className={'px-4'}>
-                <div className={'w-64 py-2 hover:bg-stone-600 rounded-lg px-4 font-thin'}><button>Home</button></div>
-                <div className={'w-64 py-2 hover:bg-stone-600 rounded-lg px-4 font-thin'}><button>Shorts</button></div>
-                <div className={'w-64 py-2 hover:bg-stone-600 rounded-lg px-4 font-thin'}><button>Subscriptions</button></div>
+                <Link to={'/'}><div className={'w-64 py-2 hover:bg-stone-600 rounded-lg px-4 font-thin'}><button>Home</button></div></Link>
+                <Link to={'/shorts'}><div className={'w-64 py-2 hover:bg-stone-600 rounded-lg px-4 font-thin'}><button>Shorts</button></div></Link>
+                <Link to={'/subscriptions'}><div className={'w-64 py-2 hover:bg-stone-600 rounded-lg px-4 font-thin'}><button>Subscriptions</button></div></Link>
                 <hr className={'pt-2'}/>
                 <div className={'w-64 py-2 hover:bg-stone-600 rounded-lg px-4 font-thin'}><button>Library</button></div>
                 <div className={'w-64 py-2 hover:bg-stone-600 rounded-lg px-4 font-thin'}><button>History</button></div>

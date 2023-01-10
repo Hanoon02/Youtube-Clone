@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 function Header(){
     return(
@@ -11,7 +12,7 @@ function Header(){
                     <line x1="4" y1="12" x2="20" y2="12" />
                     <line x1="4" y1="18" x2="20" y2="18" />
                 </svg>
-                <p className={'w-1/6 text-2xl pl-3'}> YouTube</p>
+                <Link to={'/'}><p className={'w-1/6 text-2xl pl-3'}>YouTube </p></Link>
             </div>
             <div className={'w-1/6'}></div>
             <div className='py-2 px-2 mx-4 w-2/6 '>

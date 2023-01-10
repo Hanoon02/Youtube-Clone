@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bdbbf19-c990-4f54-bb67-4f521d170ac3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8bdbbf19-c990-4f54-bb67-4f521d170ac3" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/components/Cards/PreviewCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cards/ShortsCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/Shorts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/Subscriptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/Watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CategoryList.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeCategory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images/soccer-thumbnail.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeCategory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/VideoCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IAXuxtDIDaykq7CnXkLqx58YQI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +59,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Cards" />
+      <recent name="$PROJECT_DIR$/src/components/Pages" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,8 +79,16 @@
       <workItem from="1672048291568" duration="135000" />
       <workItem from="1672048463132" duration="2474000" />
       <workItem from="1672811205102" duration="60000" />
-      <workItem from="1672811272789" duration="7125000" />
+      <workItem from="1672811272789" duration="13763000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1673357810447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673357810447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
