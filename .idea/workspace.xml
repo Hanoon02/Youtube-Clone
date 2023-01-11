@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bdbbf19-c990-4f54-bb67-4f521d170ac3" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/ProfileCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/History.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Later.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Library.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Playlist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Results.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cards/CommentCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/PreviewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/PreviewCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Subscriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Subscriptions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -77,7 +77,7 @@
       <workItem from="1672048291568" duration="135000" />
       <workItem from="1672048463132" duration="2474000" />
       <workItem from="1672811205102" duration="60000" />
-      <workItem from="1672811272789" duration="19348000" />
+      <workItem from="1672811272789" duration="29220000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1673357810447</created>
@@ -93,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673370327533</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1673386193885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673386193885</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1673386205421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673386205421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

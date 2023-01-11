@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 function Home() {
     return(
         <>
-            <div className={'flex flex-col'}>
+            <div className={'flex flex-col px-2'}>
                 <div className='flex py-3 px-3'>
                     <div className=' py-2 px-4 rounded-lg bg-stone-600 mx-2'><button> All </button></div>
                     <div className=' py-2 px-4 rounded-lg bg-stone-600 mx-2'><button> Gaming </button></div>

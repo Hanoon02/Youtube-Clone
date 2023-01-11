@@ -1,10 +1,11 @@
 import React from "react";
 import ProfileCard from "../Cards/ProfileCard";
+import {Link} from "react-router-dom";
 
 function Profile(){
     return(
         <>
-            <div className={'flex flex-col'}>
+            <div className={'flex flex-col pl-4'}>
                 <img alt={'Banner'} className={'h-[500px]'} src={'https://preview.redd.it/0lnpopnp6gl61.jpg?width=2560&format=pjpg&auto=webp&s=dd2f8d54f89de96e72556307fb027d8efea52638'}/>
                 <div className={'flex'}>
                     <img alt={'Profile'} className={'w-[80px] h-[80px] rounded-full border'} src={'https://logos-world.net/wp-content/uploads/2021/09/Mr-Beast-Logo.png'}/>
@@ -24,7 +25,7 @@ function Profile(){
                     <p className={'px-4 text-lg'}> LIVE </p>
                     <p className={'px-4 text-lg'}> COMMUNITY </p>
                 </div>
-                <div className={'flex pb-4'}>
+                <Link to={'/watch'}><div className={'flex pb-4'}>
                     <img alt={'Main Video'} className={'w-[500px] rounded-lg'} src={'https://i.ytimg.com/vi/zxYjTTXc-J8/maxresdefault.jpg'}/>
                     <div className={'flex flex-col px-4'}>
                         <p className={'text-xl'}> 100 Kids on Island</p>
@@ -32,15 +33,16 @@ function Profile(){
                         <p> New Video Upload</p>
                         <p className={'font-thin pt-2'}> Read More</p>
                     </div>
-                </div>
+                </div></Link>
                 <hr className={'pt-4'}/>
                 <div className={'flex flex-col'}>
                     <p className={'font-semibold'}> Videos </p>
                     <div className={'flex flex-wrap'}>
-                        <ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/>
-                        <ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/>
-                        <ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/>
-                        <ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/>
+                        <Link to='/watch'><ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/></Link>
+                        <Link to='/watch'><ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/></Link>
+                        <Link to='/watch'><ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/></Link>
+                        <Link to='/watch'><ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/></Link>
+                        <Link to='/watch'><ProfileCard title={'Hide and Seek'} view={'50 Million Views'} time={'1 week ago'} image={'https://i.ytimg.com/vi/00NgUctWoLQ/maxresdefault.jpg'}/></Link>
                     </div>
                 </div>
             </div>
