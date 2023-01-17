@@ -20,8 +20,9 @@ function Header(props){
                 <Link to={'/'}><p className={'w-1/6 text-2xl pl-3'}>YouTube </p></Link>
             </div>
             <div className={'w-1/6'}></div>
-            <div className='py-2 px-2 mx-4 w-2/6 '>
-                <input type="text" id="rounded-email" className="rounded-full border-transparent border-[0.5px] border-gray-100 w-full py-2 px-4 bg-black text-white placeholder-gray-400 shadow-sm text-base" placeholder="Search"/>
+            <div className='pl-6 flex mx-2 w-2/6 my-2 rounded-full border-transparent border-[0.5px] border-gray-100'>
+                <input type="text" id="rounded-email" className=" w-full px-4 bg-black text-white placeholder-gray-400 shadow-sm text-base focus:border-none " placeholder="Search"/>
+                <button className={'w-[75px] bg-white text-black rounded-r-full'}><Link to={'/search'}>Search</Link></button>
             </div>
             <div className='flex w-2/6 justify-end align-middle'>
                 <div className='py-4 px-2'>

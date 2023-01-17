@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bdbbf19-c990-4f54-bb67-4f521d170ac3" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/CommentCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cards/SearchCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards/PreviewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/PreviewCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/ShortsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/ShortsCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Shorts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Shorts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Subscriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Subscriptions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,8 @@
       <workItem from="1672048291568" duration="135000" />
       <workItem from="1672048463132" duration="2474000" />
       <workItem from="1672811205102" duration="60000" />
-      <workItem from="1672811272789" duration="29220000" />
+      <workItem from="1672811272789" duration="32113000" />
+      <workItem from="1673688356388" duration="6663000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1673357810447</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673386205421</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1673441952970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673441952970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

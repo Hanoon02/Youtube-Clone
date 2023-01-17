@@ -12,6 +12,7 @@ import Playlist from "./components/Pages/Playlist";
 import History from "./components/Pages/History";
 import Results from "./components/Pages/Results";
 import Later from "./components/Pages/Later";
+import Search from "./components/Pages/Search";
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
                 <Route path={'/history'} element={<History/>}/>
                 <Route path={'/results'} element={<Results/>}/>
                 <Route path={'/later'} element={<Later/>}/>
+                <Route path={'/search'} element={<Search/>}/>
             </Routes>
     </BrowserRouter>
     </>

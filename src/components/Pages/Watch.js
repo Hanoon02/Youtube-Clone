@@ -37,25 +37,19 @@ function Watch(){
                         <CommentCard name={'BeastFan123'} time={'1 second ago'} comment={'Wonderful video'} image={'https://www.thefamouspeople.com/profiles/images/mr-beast-1.jpg'}/>
                         <CommentCard name={'BeastFan123'} time={'1 second ago'} comment={'Wonderful video'} image={'https://www.thefamouspeople.com/profiles/images/mr-beast-1.jpg'}/>
                         <CommentCard name={'BeastFan123'} time={'1 second ago'} comment={'Wonderful video'} image={'https://www.thefamouspeople.com/profiles/images/mr-beast-1.jpg'}/>
-                        <CommentCard name={'BeastFan123'} time={'1 second ago'} comment={'Wonderful video'} image={'https://www.thefamouspeople.com/profiles/images/mr-beast-1.jpg'}/>
-                        <CommentCard name={'BeastFan123'} time={'1 second ago'} comment={'Wonderful video'} image={'https://www.thefamouspeople.com/profiles/images/mr-beast-1.jpg'}/>
                     </div>
                 </div>
                 <div className={'col-span-2 pl-4'}>
                     <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
-                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
+                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/U30d6mG_jaI/maxresdefault.jpg'} title={'Get More Views in Just 100 Days'} creator={'Top Viewer'} views={'10 Million'} time={'10 Days'}/></Link>
+                <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
+                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/U30d6mG_jaI/maxresdefault.jpg'} title={'Get More Views in Just 100 Days'} creator={'Top Viewer'} views={'10 Million'} time={'10 Days'}/></Link>
+                <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
+                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/U30d6mG_jaI/maxresdefault.jpg'} title={'Get More Views in Just 100 Days'} creator={'Top Viewer'} views={'10 Million'} time={'10 Days'}/></Link>
+                <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
+                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/U30d6mG_jaI/maxresdefault.jpg'} title={'Get More Views in Just 100 Days'} creator={'Top Viewer'} views={'10 Million'} time={'10 Days'}/></Link>
+                <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/ktyJIj6i4Qw/maxresdefault.jpg'} title={'Mr Beast Giveaway'} creator={'Mr Beast'} views={'20 Million'} time={'2 Days'}/></Link>
+                    <Link to={'/watch'}><PreviewCard image={'https://i.ytimg.com/vi/U30d6mG_jaI/maxresdefault.jpg'} title={'Get More Views in Just 100 Days'} creator={'Top Viewer'} views={'10 Million'} time={'10 Days'}/></Link>
                 </div>
             </div>
         </>
