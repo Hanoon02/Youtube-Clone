@@ -4,7 +4,6 @@
 
 ```
 1. Clone this repository
-2. cd client && npm install && npm start
-3. cd ..
-4. cd server && npm install && npm start
+2. npm install
+3. npm start
 ```
