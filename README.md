@@ -1,2 +1,9 @@
 # Youtube-Clone
-Youtube clone created using React
+
+## Setup
+
+```
+1. Clone this repository
+2. npm install
+3. npm start
+```
