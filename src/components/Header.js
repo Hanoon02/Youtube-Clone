@@ -48,7 +48,8 @@ function Header(props){
             <div className={'absolute h-full w-full bg-black opacity-40'} onClick={handleMenu}></div>
             <div className={'absolute w-[300px] h-full bg-black'}>
                 <Menu/>
-            </div></>}
+            </div>
+            </>}
         </>
     )
 }
